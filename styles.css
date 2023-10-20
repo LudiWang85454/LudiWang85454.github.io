@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Infant&family=Ubuntu+Mono:wght@400;700&family=Zen+Dots&display=swap');
+body {
+    background-color: #1d1330;
+    font-size: 100%;
+}
+
+h1 {
+    background: linear-gradient(
+    to left, 
+    #F3FFEA,
+    #70EE9C
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+    font-family: 'Zen Dots', sans-serif;
+    font-size: 5rem;
+    margin-right: 0;
+}
+
+h2 {
+    color: #E26D5C;
+    font-family: 'Ubuntu Mono', monospace;
+    font-size: 2.5rem;
+    margin-bottom: 0;
+}
+
+p {
+    color: #2F2504;
+    font-family: 'Cormorant Infant', serif;
+    font-size: 1.5rem;
+    margin-top: 0;
+}
+
+a.nav-link {
+    font-family: 'Ubuntu Mono', monospace;
+    font-size: 1.5rem;
+    text-decoration: none;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+a.nav-link:link {
+    color: #E26D5C;
+}
+
+a.nav-link:visited {
+    color: #E26D5C;
+}
+
+a.nav-link:hover {
+    color: #BDB8D2;
+    font-weight: bold;
+}
+
+#page-grid {
+    display: grid;
+    grid-template-areas:
+        ". head nav"
+        "main main .";
+    grid-template-rows: 1fr, 15rem;
+    grid-template-columns: repeat(3, 1fr);
+    width: 100%;
+    height: 100%;   
+}
+
+#page-grid > header {
+    grid-area: head;
+    text-align: right;
+}
+
+#page-grid > nav {
+    grid-area: nav;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: flex-end;
+    gap: 1rem;
+}
+
+nav > .nav-link {
+    text-align: right;
+    margin-right: 5rem; 
+}
+
+#page-grid > main {
+    grid-area: main;
+    background: linear-gradient(
+    to left, 
+    #BDB8D2,
+    #F9F5FF 90%
+  );
+    text-align: left;
+    position: relative;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    padding-bottom: 1rem;
+    margin-left: 5rem;
+}
+
+.border {
+    outline: solid #70EE9C;
+    outline-width: medium;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0.5rem;
+    top: 0.5rem;
+}
+
+#profile-icons {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 2rem;
+}
+ 
+profile-icons > .img-link {
+}
