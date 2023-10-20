@@ -31,6 +31,15 @@ p {
     margin-top: 0;
 }
 
+a.img-link {
+    font-family: 'Ubuntu Mono', monospace;
+    font-size: 1.5rem;
+    text-decoration: none;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+
 a.nav-link {
     font-family: 'Ubuntu Mono', monospace;
     font-size: 1.5rem;
