@@ -110,6 +110,7 @@ nav > .nav-link {
     position: absolute;
     left: 0rem;
     top: 0rem;
+    z-index: 10;
 }
 
 .border {
@@ -120,6 +121,7 @@ nav > .nav-link {
     position: absolute;
     left: 0.5rem;
     top: 0.5rem;
+    z-index: 0;
 }
 
 #profile-icons {
