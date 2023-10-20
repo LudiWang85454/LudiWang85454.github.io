@@ -64,7 +64,7 @@ a.nav-link:hover {
 #page-grid {
     display: grid;
     grid-template-areas:
-        ". head nav"
+        "head head nav"
         "main main nav";
     grid-template-rows: 1fr, 15rem;
     grid-template-columns: repeat(3, 1fr);
