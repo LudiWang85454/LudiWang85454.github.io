@@ -59,7 +59,7 @@ a.nav-link:hover {
 #page-grid {
     display: grid;
     grid-template-areas:
-        "head head nav"
+        "head head head"
         "main main nav";
     grid-template-rows: 1fr, 15rem;
     grid-template-columns: repeat(3, 1fr);
@@ -80,11 +80,14 @@ a.nav-link:hover {
     justify-content: center;
     align-items: flex-end;
     gap: 1rem;
+    width: 15rem;
+    right: 10rem;
+    top: 15rem;
+    position: fixed;
 }
 
 nav > .nav-link {
     text-align: right;
-    margin-right: 5rem; 
 }
 
 #page-grid > main {
