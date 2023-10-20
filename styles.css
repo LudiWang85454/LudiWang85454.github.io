@@ -69,7 +69,7 @@ a.nav-link:hover {
 
 #page-grid > header {
     grid-area: head;
-    text-align: right;
+    text-align: center;
 }
 
 #page-grid > nav {
