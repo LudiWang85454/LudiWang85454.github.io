@@ -36,6 +36,23 @@ a.img-link {
     text-decoration: none;
 }
 
+a.main-link {
+    font-family: 'Ubuntu Mono', monospace;
+    font-size: 1.5rem;
+    text-decoration: underline;
+}
+
+a.main-link:link {
+    color: #70EE9C;
+}
+
+a.main-link:visited {
+    color: #1d1330;
+}
+
+a.main-link:hover {
+    color: #F3FFEA;
+}
 
 a.nav-link {
     font-family: 'Ubuntu Mono', monospace;
