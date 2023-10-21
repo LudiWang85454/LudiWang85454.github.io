@@ -39,11 +39,10 @@ a.img-link {
 a.main-link {
     font-family: 'Ubuntu Mono', monospace;
     font-size: 1.5rem;
-    text-decoration: underline;
 }
 
 a.main-link:link {
-    color: #70EE9C;
+    color: #E26D5C;
 }
 
 a.main-link:visited {
@@ -51,7 +50,7 @@ a.main-link:visited {
 }
 
 a.main-link:hover {
-    color: #F3FFEA;
+    text-decoration: underline;
 }
 
 a.nav-link {
