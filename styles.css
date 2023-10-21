@@ -34,6 +34,13 @@ a.img-link {
     font-family: 'Ubuntu Mono', monospace;
     font-size: 1.5rem;
     text-decoration: none;
+    text-align: center;
+    color: #E26D5C;
+}
+
+a.img-link:hover {
+    color: #BDB8D2;
+    font-weight: bold;
 }
 
 a.main-link {
