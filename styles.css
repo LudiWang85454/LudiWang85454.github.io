@@ -39,6 +39,7 @@ a.img-link {
 a.main-link {
     font-family: 'Ubuntu Mono', monospace;
     font-size: 1.5rem;
+    text-decoration: none;
 }
 
 a.main-link:link {
