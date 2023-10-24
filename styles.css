@@ -24,12 +24,19 @@ h2 {
 }
 
 h3 {
-    color: #A13323;
+    color: #E26D5C;
     font-family: 'Ubuntu Mono', monospace;
     font-size: 2rem;
 }
 
 p {
+    color: #2F2504;
+    font-family: 'Cormorant Infant', serif;
+    font-size: 1.5rem;
+    margin-top: 1rem;
+}
+
+li {
     color: #2F2504;
     font-family: 'Cormorant Infant', serif;
     font-size: 1.5rem;
