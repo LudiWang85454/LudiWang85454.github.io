@@ -23,6 +23,12 @@ h2 {
     font-size: 2.5rem;
 }
 
+h3 {
+    color: #A13323;
+    font-family: 'Ubuntu Mono', monospace;
+    font-size: 2rem;
+}
+
 p {
     color: #2F2504;
     font-family: 'Cormorant Infant', serif;
@@ -54,7 +60,7 @@ a.main-link:link {
 }
 
 a.main-link:visited {
-    color: #1d1330;
+    color: #A13323;
 }
 
 a.main-link:hover {
