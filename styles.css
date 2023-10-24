@@ -43,6 +43,24 @@ li {
     margin-top: 1rem;
 }
 
+a.extern-link {
+    font-family: 'Ubuntu Mono', monospace;
+    font-size: 1.5rem;
+    text-decoration: none;
+}
+
+a.extern-link:link {
+    color: #E26D5C;
+}
+
+a.extern-link:visited {
+    color: #A13323;
+}
+
+a.extern-link:hover {
+    text-decoration: underline;
+}
+
 a.img-link {
     font-family: 'Ubuntu Mono', monospace;
     font-size: 1.5rem;
@@ -64,10 +82,6 @@ a.main-link {
 
 a.main-link:link {
     color: #E26D5C;
-}
-
-a.main-link:visited {
-    color: #A13323;
 }
 
 a.main-link:hover {
@@ -164,6 +178,12 @@ nav > .nav-link {
     align-items: center;
     gap: 2rem;
 }
- 
-profile-icons > .img-link {
+
+#blog-links {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
 }
+ 
