@@ -183,6 +183,9 @@ nav > .nav-link {
     justify-content: center;
     align-items: center;
     gap: 3rem;
-    padding-top: 2rem;
 }
- 
+
+.extern-link {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
