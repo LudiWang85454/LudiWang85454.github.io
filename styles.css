@@ -173,7 +173,7 @@ nav > .nav-link {
     flex-wrap: wrap;
     justify-content: flex-start;
     align-items: center;
-    gap: 2rem;
+    gap: 1rem;
 }
 
 #blog-links {
